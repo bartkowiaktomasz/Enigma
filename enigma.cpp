@@ -133,6 +133,7 @@ int Enigma::encryptMessage(string& message)
         message.append(word);
         cin >> ws;
     }
+    cout << endl;
     return NO_ERROR;
 }
 
